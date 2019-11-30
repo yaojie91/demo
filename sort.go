@@ -66,7 +66,7 @@ func minHeap(root int, end int, arr []int) {
 			break
 		}
 		if child+1 <= end && arr[child] > arr[child+1] {
-			child += 1
+			child++
 		}
 		if arr[root] > arr[child] {
 			arr[root], arr[child] = arr[child], arr[root]

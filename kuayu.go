@@ -10,7 +10,7 @@ func main() {
 	http.ListenAndServe(":8000", nil)
 }
 
-// CORS，服务器端配置
+// Entrance CORS，服务器端配置
 func Entrance(w http.ResponseWriter, r *http.Request) {
 	w.Header().Set("Access-Control-Allow-Origin", "*")
 	w.Header().Set("Access-Control-Allow-Headers", "content-type, token, Access-Control-Allow-Origin") //header的类型
