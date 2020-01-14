@@ -1,4 +1,4 @@
-package main
+package leet524
 
 import "fmt"
 
