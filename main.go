@@ -18,5 +18,5 @@ func main() {
 		go process(i)
 	}
 	wg.Wait()
-	fmt.Println("1")
+	fmt.Println("2")
 }
